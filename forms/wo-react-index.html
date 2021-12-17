@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+  </head>
+  <body>
+    <form method="post" action="http://localhost:3000/submit">
+      <label>
+        Name:
+        <input type="text" name="name" />
+      </label>
+      <label>
+        Fav Color:
+        <select name="favoriteColor">
+          <option value="red">red</option>
+          <option value="yellow">yellow</option>
+          <option value="blue">blue</option>
+          <option value="black">black</option>
+        </select>
+      </label>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
